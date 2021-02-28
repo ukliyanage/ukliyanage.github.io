@@ -1,0 +1,72 @@
+//main styels
+
+body {
+    font-family: 'Muli';
+}
+
+.header-image {
+    background-image: url("/img/header.png");
+    background-color: #192033;
+    background-repeat: no-repeat;
+    height: 222px;
+    width: 100%;
+    background-size: contain;
+}
+
+.map-image {
+    background-image: url("/img/map.png");
+    background-color: #192033;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+.map-image1 {
+    background-image: url("/img/map.png");
+    background-color: #192033;
+    background-repeat: no-repeat;
+    height: 570px;
+    width: 100%;
+    background-size: cover;
+}
+
+.card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);;
+}
+
+.upcoming {
+    &-title {
+        font-weight: 700;
+        color: #051FBE;
+    }
+
+    &-task {
+        a {
+            color: #192033;
+        }
+    }
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #051FBE;
+    border-color: #051FBE;
+    padding: 0.975rem 0.75rem;
+}
+
+.btn-outline-primary {
+    color: #051FBE;
+    border-color: #051FBE;
+    padding: 0.975rem 0.75rem;
+}
+
+.thanks {
+    margin-top: 15px;
+    color: #051FBE;
+    &-img {
+        margin-top: 100px;
+    }
+    &-desc {
+        color: #051FBE;
+    }
+}
